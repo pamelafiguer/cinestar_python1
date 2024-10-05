@@ -30,7 +30,7 @@ def cines():
         cines = row.fetchall()
     
     
-    cines = {'success': True, 'data': cines, 'message': hola}
+    cines = {'success': True, 'data': cines, 'message': message}
     cursor.close()
     return cines 
 
